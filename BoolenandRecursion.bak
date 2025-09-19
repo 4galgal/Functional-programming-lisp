@@ -1,0 +1,7 @@
+#lang racket
+(define hail
+  (lambda (n)
+    (if (odd? n) (\ n 2) (n-1)
+     )
+   )
+ )
